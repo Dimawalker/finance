@@ -1,0 +1,9 @@
+[ {
+  "username" : "123",
+  "password" : "123",
+  "wallet" : {
+    "balance" : 0.0,
+    "transactions" : [ ],
+    "budgets" : { }
+  }
+} ]

@@ -1,0 +1,12 @@
+com\finance\cli\CommandLineInterface.class
+com\finance\model\Wallet.class
+com\finance\model\CategoryType.class
+com\finance\model\Category.class
+com\finance\model\User.class
+com\finance\repository\UserRepository.class
+com\finance\service\WalletService.class
+com\finance\model\Transaction.class
+com\finance\model\TransactionType.class
+com\finance\Main.class
+com\finance\repository\JsonDataManager.class
+com\finance\service\AuthService.class
