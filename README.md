@@ -37,7 +37,7 @@ bash
 bash
 mvn exec:java -Dexec.mainClass="com.finance.Main"
 
-**Использование**
+### Использование
 
 Меню авторизации:
 
@@ -45,7 +45,6 @@ mvn exec:java -Dexec.mainClass="com.finance.Main"
 2. Регистрация нового пользователя  
 3. Выход из приложения
 4. Справка (help)
-
 
 Главное меню:
 
@@ -59,7 +58,7 @@ mvn exec:java -Dexec.mainClass="com.finance.Main"
 
 
 
-**Примеры использования
+### Примеры использования
 
 Категория дохода: Зарплата
 Сумма: 50000
@@ -69,7 +68,7 @@ mvn exec:java -Dexec.mainClass="com.finance.Main"
 С другими также
 
 
-**Архитектура
+### Архитектура
 
 src/main/java/com/finance/
 ├── Main.java                      # Точка входа
@@ -89,13 +88,13 @@ src/main/java/com/finance/
     └── CommandLineInterface.java  # Консольный интерфейс
 
 
-**Тестирование
+### Тестирование
 cmd
 mvn test
 
 Проект включает unit-тесты для проверки основной функциональности.
 
-**Структура тестов
+### Структура тестов
 
 src/test/java/com/finance/
 ├── AuthServiceTest.java           # Тесты авторизации
